@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA68A0332589213B004809D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA68A0322589213B004809D5 /* AppDelegate.swift */; };
+		BA68A0352589213B004809D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA68A0342589213B004809D5 /* SceneDelegate.swift */; };
+		BA68A0372589213B004809D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA68A0362589213B004809D5 /* ViewController.swift */; };
+		BA68A03A2589213B004809D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA68A0382589213B004809D5 /* Main.storyboard */; };
+		BA68A03D2589213B004809D5 /* Holon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA68A03B2589213B004809D5 /* Holon.xcdatamodeld */; };
+		BA68A03F2589213E004809D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA68A03E2589213E004809D5 /* Assets.xcassets */; };
+		BA68A0422589213E004809D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA68A0402589213E004809D5 /* LaunchScreen.storyboard */; };
+		BA68A04D2589213E004809D5 /* HolonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA68A04C2589213E004809D5 /* HolonTests.swift */; };
+		BA68A0582589213E004809D5 /* HolonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA68A0572589213E004809D5 /* HolonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA68A0492589213E004809D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA68A0272589213B004809D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA68A02E2589213B004809D5;
+			remoteInfo = Holon;
+		};
+		BA68A0542589213E004809D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA68A0272589213B004809D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA68A02E2589213B004809D5;
+			remoteInfo = Holon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA68A02F2589213B004809D5 /* Holon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Holon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA68A0322589213B004809D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA68A0342589213B004809D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BA68A0362589213B004809D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA68A0392589213B004809D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA68A03C2589213B004809D5 /* Holon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Holon.xcdatamodel; sourceTree = "<group>"; };
+		BA68A03E2589213E004809D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA68A0412589213E004809D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA68A0432589213E004809D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA68A0482589213E004809D5 /* HolonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA68A04C2589213E004809D5 /* HolonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolonTests.swift; sourceTree = "<group>"; };
+		BA68A04E2589213E004809D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA68A0532589213E004809D5 /* HolonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA68A0572589213E004809D5 /* HolonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolonUITests.swift; sourceTree = "<group>"; };
+		BA68A0592589213E004809D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA68A02C2589213B004809D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA68A0452589213E004809D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA68A0502589213E004809D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA68A0262589213B004809D5 = {
+			isa = PBXGroup;
+			children = (
+				BA68A0312589213B004809D5 /* Holon */,
+				BA68A04B2589213E004809D5 /* HolonTests */,
+				BA68A0562589213E004809D5 /* HolonUITests */,
+				BA68A0302589213B004809D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA68A0302589213B004809D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA68A02F2589213B004809D5 /* Holon.app */,
+				BA68A0482589213E004809D5 /* HolonTests.xctest */,
+				BA68A0532589213E004809D5 /* HolonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA68A0312589213B004809D5 /* Holon */ = {
+			isa = PBXGroup;
+			children = (
+				BA68A0322589213B004809D5 /* AppDelegate.swift */,
+				BA68A0342589213B004809D5 /* SceneDelegate.swift */,
+				BA68A0362589213B004809D5 /* ViewController.swift */,
+				BA68A0382589213B004809D5 /* Main.storyboard */,
+				BA68A03E2589213E004809D5 /* Assets.xcassets */,
+				BA68A0402589213E004809D5 /* LaunchScreen.storyboard */,
+				BA68A0432589213E004809D5 /* Info.plist */,
+				BA68A03B2589213B004809D5 /* Holon.xcdatamodeld */,
+			);
+			path = Holon;
+			sourceTree = "<group>";
+		};
+		BA68A04B2589213E004809D5 /* HolonTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA68A04C2589213E004809D5 /* HolonTests.swift */,
+				BA68A04E2589213E004809D5 /* Info.plist */,
+			);
+			path = HolonTests;
+			sourceTree = "<group>";
+		};
+		BA68A0562589213E004809D5 /* HolonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA68A0572589213E004809D5 /* HolonUITests.swift */,
+				BA68A0592589213E004809D5 /* Info.plist */,
+			);
+			path = HolonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA68A02E2589213B004809D5 /* Holon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA68A05C2589213E004809D5 /* Build configuration list for PBXNativeTarget "Holon" */;
+			buildPhases = (
+				BA68A02B2589213B004809D5 /* Sources */,
+				BA68A02C2589213B004809D5 /* Frameworks */,
+				BA68A02D2589213B004809D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Holon;
+			productName = Holon;
+			productReference = BA68A02F2589213B004809D5 /* Holon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA68A0472589213E004809D5 /* HolonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA68A05F2589213E004809D5 /* Build configuration list for PBXNativeTarget "HolonTests" */;
+			buildPhases = (
+				BA68A0442589213E004809D5 /* Sources */,
+				BA68A0452589213E004809D5 /* Frameworks */,
+				BA68A0462589213E004809D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA68A04A2589213E004809D5 /* PBXTargetDependency */,
+			);
+			name = HolonTests;
+			productName = HolonTests;
+			productReference = BA68A0482589213E004809D5 /* HolonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA68A0522589213E004809D5 /* HolonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA68A0622589213E004809D5 /* Build configuration list for PBXNativeTarget "HolonUITests" */;
+			buildPhases = (
+				BA68A04F2589213E004809D5 /* Sources */,
+				BA68A0502589213E004809D5 /* Frameworks */,
+				BA68A0512589213E004809D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA68A0552589213E004809D5 /* PBXTargetDependency */,
+			);
+			name = HolonUITests;
+			productName = HolonUITests;
+			productReference = BA68A0532589213E004809D5 /* HolonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA68A0272589213B004809D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					BA68A02E2589213B004809D5 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					BA68A0472589213E004809D5 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = BA68A02E2589213B004809D5;
+					};
+					BA68A0522589213E004809D5 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = BA68A02E2589213B004809D5;
+					};
+				};
+			};
+			buildConfigurationList = BA68A02A2589213B004809D5 /* Build configuration list for PBXProject "Holon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA68A0262589213B004809D5;
+			productRefGroup = BA68A0302589213B004809D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA68A02E2589213B004809D5 /* Holon */,
+				BA68A0472589213E004809D5 /* HolonTests */,
+				BA68A0522589213E004809D5 /* HolonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA68A02D2589213B004809D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA68A0422589213E004809D5 /* LaunchScreen.storyboard in Resources */,
+				BA68A03F2589213E004809D5 /* Assets.xcassets in Resources */,
+				BA68A03A2589213B004809D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA68A0462589213E004809D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA68A0512589213E004809D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA68A02B2589213B004809D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA68A0372589213B004809D5 /* ViewController.swift in Sources */,
+				BA68A0332589213B004809D5 /* AppDelegate.swift in Sources */,
+				BA68A03D2589213B004809D5 /* Holon.xcdatamodeld in Sources */,
+				BA68A0352589213B004809D5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA68A0442589213E004809D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA68A04D2589213E004809D5 /* HolonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA68A04F2589213E004809D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA68A0582589213E004809D5 /* HolonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA68A04A2589213E004809D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA68A02E2589213B004809D5 /* Holon */;
+			targetProxy = BA68A0492589213E004809D5 /* PBXContainerItemProxy */;
+		};
+		BA68A0552589213E004809D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA68A02E2589213B004809D5 /* Holon */;
+			targetProxy = BA68A0542589213E004809D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA68A0382589213B004809D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA68A0392589213B004809D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA68A0402589213E004809D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA68A0412589213E004809D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA68A05A2589213E004809D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA68A05B2589213E004809D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA68A05D2589213E004809D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TCG992Z4H;
+				INFOPLIST_FILE = Holon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.holondevices.Holon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA68A05E2589213E004809D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TCG992Z4H;
+				INFOPLIST_FILE = Holon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.holondevices.Holon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA68A0602589213E004809D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TCG992Z4H;
+				INFOPLIST_FILE = HolonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.holondevices.HolonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Holon.app/Holon";
+			};
+			name = Debug;
+		};
+		BA68A0612589213E004809D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TCG992Z4H;
+				INFOPLIST_FILE = HolonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.holondevices.HolonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Holon.app/Holon";
+			};
+			name = Release;
+		};
+		BA68A0632589213E004809D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TCG992Z4H;
+				INFOPLIST_FILE = HolonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.holondevices.HolonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Holon;
+			};
+			name = Debug;
+		};
+		BA68A0642589213E004809D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TCG992Z4H;
+				INFOPLIST_FILE = HolonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.holondevices.HolonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Holon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA68A02A2589213B004809D5 /* Build configuration list for PBXProject "Holon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA68A05A2589213E004809D5 /* Debug */,
+				BA68A05B2589213E004809D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA68A05C2589213E004809D5 /* Build configuration list for PBXNativeTarget "Holon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA68A05D2589213E004809D5 /* Debug */,
+				BA68A05E2589213E004809D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA68A05F2589213E004809D5 /* Build configuration list for PBXNativeTarget "HolonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA68A0602589213E004809D5 /* Debug */,
+				BA68A0612589213E004809D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA68A0622589213E004809D5 /* Build configuration list for PBXNativeTarget "HolonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA68A0632589213E004809D5 /* Debug */,
+				BA68A0642589213E004809D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BA68A03B2589213B004809D5 /* Holon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA68A03C2589213B004809D5 /* Holon.xcdatamodel */,
+			);
+			currentVersion = BA68A03C2589213B004809D5 /* Holon.xcdatamodel */;
+			path = Holon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BA68A0272589213B004809D5 /* Project object */;
+}
