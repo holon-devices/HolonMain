@@ -9,13 +9,29 @@
 /* Begin PBXBuildFile section */
 		BA68A0332589213B004809D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA68A0322589213B004809D5 /* AppDelegate.swift */; };
 		BA68A0352589213B004809D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA68A0342589213B004809D5 /* SceneDelegate.swift */; };
-		BA68A0372589213B004809D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA68A0362589213B004809D5 /* ViewController.swift */; };
 		BA68A03A2589213B004809D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA68A0382589213B004809D5 /* Main.storyboard */; };
 		BA68A03D2589213B004809D5 /* Holon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA68A03B2589213B004809D5 /* Holon.xcdatamodeld */; };
 		BA68A03F2589213E004809D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA68A03E2589213E004809D5 /* Assets.xcassets */; };
 		BA68A0422589213E004809D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA68A0402589213E004809D5 /* LaunchScreen.storyboard */; };
 		BA68A04D2589213E004809D5 /* HolonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA68A04C2589213E004809D5 /* HolonTests.swift */; };
 		BA68A0582589213E004809D5 /* HolonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA68A0572589213E004809D5 /* HolonUITests.swift */; };
+		BA68A07525892179004809D5 /* LEMONMILK-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA68A06925892179004809D5 /* LEMONMILK-LightItalic.otf */; };
+		BA68A07625892179004809D5 /* LEMONMILK-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA68A06A25892179004809D5 /* LEMONMILK-Medium.otf */; };
+		BA68A07725892179004809D5 /* LEMONMILK-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA68A06B25892179004809D5 /* LEMONMILK-MediumItalic.otf */; };
+		BA68A07825892179004809D5 /* LEMONMILK-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA68A06C25892179004809D5 /* LEMONMILK-BoldItalic.otf */; };
+		BA68A07925892179004809D5 /* LEMONMILK-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA68A06D25892179004809D5 /* LEMONMILK-RegularItalic.otf */; };
+		BA68A07B25892179004809D5 /* LEMONMILK-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA68A06F25892179004809D5 /* LEMONMILK-Regular.otf */; };
+		BA68A07C25892179004809D5 /* Lemon Milk Demo 2.png in Resources */ = {isa = PBXBuildFile; fileRef = BA68A07025892179004809D5 /* Lemon Milk Demo 2.png */; };
+		BA68A07D25892179004809D5 /* Lemon Milk Demo 1.png in Resources */ = {isa = PBXBuildFile; fileRef = BA68A07125892179004809D5 /* Lemon Milk Demo 1.png */; };
+		BA68A07E25892179004809D5 /* LEMONMILK-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA68A07225892179004809D5 /* LEMONMILK-Bold.otf */; };
+		BA68A07F25892179004809D5 /* READ_ME.txt in Resources */ = {isa = PBXBuildFile; fileRef = BA68A07325892179004809D5 /* READ_ME.txt */; };
+		BA68A08025892179004809D5 /* LEMONMILK-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA68A07425892179004809D5 /* LEMONMILK-Light.otf */; };
+		BA68A0CE25893C3D004809D5 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA68A0CD25893C3D004809D5 /* LoadingViewController.swift */; };
+		BA68A0D425894994004809D5 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA68A0D325894994004809D5 /* Helper.swift */; };
+		BA68A0D925894CD2004809D5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA68A0D825894CD2004809D5 /* Constants.swift */; };
+		BA68A0DE25894F23004809D5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA68A0DD25894F23004809D5 /* SettingsViewController.swift */; };
+		BA68A0E825895B6B004809D5 /* PresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA68A0E725895B6B004809D5 /* PresentationManager.swift */; };
+		BA68A0F02589CCC0004809D5 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA68A0EF2589CCC0004809D5 /* OnboardingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +55,6 @@
 		BA68A02F2589213B004809D5 /* Holon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Holon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA68A0322589213B004809D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA68A0342589213B004809D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BA68A0362589213B004809D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA68A0392589213B004809D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA68A03C2589213B004809D5 /* Holon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Holon.xcdatamodel; sourceTree = "<group>"; };
 		BA68A03E2589213E004809D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +66,23 @@
 		BA68A0532589213E004809D5 /* HolonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA68A0572589213E004809D5 /* HolonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolonUITests.swift; sourceTree = "<group>"; };
 		BA68A0592589213E004809D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA68A06925892179004809D5 /* LEMONMILK-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LEMONMILK-LightItalic.otf"; sourceTree = "<group>"; };
+		BA68A06A25892179004809D5 /* LEMONMILK-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LEMONMILK-Medium.otf"; sourceTree = "<group>"; };
+		BA68A06B25892179004809D5 /* LEMONMILK-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LEMONMILK-MediumItalic.otf"; sourceTree = "<group>"; };
+		BA68A06C25892179004809D5 /* LEMONMILK-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LEMONMILK-BoldItalic.otf"; sourceTree = "<group>"; };
+		BA68A06D25892179004809D5 /* LEMONMILK-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LEMONMILK-RegularItalic.otf"; sourceTree = "<group>"; };
+		BA68A06F25892179004809D5 /* LEMONMILK-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LEMONMILK-Regular.otf"; sourceTree = "<group>"; };
+		BA68A07025892179004809D5 /* Lemon Milk Demo 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lemon Milk Demo 2.png"; sourceTree = "<group>"; };
+		BA68A07125892179004809D5 /* Lemon Milk Demo 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lemon Milk Demo 1.png"; sourceTree = "<group>"; };
+		BA68A07225892179004809D5 /* LEMONMILK-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LEMONMILK-Bold.otf"; sourceTree = "<group>"; };
+		BA68A07325892179004809D5 /* READ_ME.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = READ_ME.txt; sourceTree = "<group>"; };
+		BA68A07425892179004809D5 /* LEMONMILK-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LEMONMILK-Light.otf"; sourceTree = "<group>"; };
+		BA68A0CD25893C3D004809D5 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		BA68A0D325894994004809D5 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		BA68A0D825894CD2004809D5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BA68A0DD25894F23004809D5 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		BA68A0E725895B6B004809D5 /* PresentationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationManager.swift; sourceTree = "<group>"; };
+		BA68A0EF2589CCC0004809D5 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +133,16 @@
 		BA68A0312589213B004809D5 /* Holon */ = {
 			isa = PBXGroup;
 			children = (
+				BA68A0E625895381004809D5 /* manager */,
+				BA68A0E725895B6B004809D5 /* PresentationManager.swift */,
+				BA68A0D22589497E004809D5 /* helper */,
+				BA68A0CC25893C24004809D5 /* controller */,
+				BA68A0402589213E004809D5 /* LaunchScreen.storyboard */,
+				BA68A06825892179004809D5 /* lemon_milk */,
 				BA68A0322589213B004809D5 /* AppDelegate.swift */,
-				BA68A0342589213B004809D5 /* SceneDelegate.swift */,
-				BA68A0362589213B004809D5 /* ViewController.swift */,
 				BA68A0382589213B004809D5 /* Main.storyboard */,
 				BA68A03E2589213E004809D5 /* Assets.xcassets */,
-				BA68A0402589213E004809D5 /* LaunchScreen.storyboard */,
+				BA68A0342589213B004809D5 /* SceneDelegate.swift */,
 				BA68A0432589213E004809D5 /* Info.plist */,
 				BA68A03B2589213B004809D5 /* Holon.xcdatamodeld */,
 			);
@@ -129,6 +165,50 @@
 				BA68A0592589213E004809D5 /* Info.plist */,
 			);
 			path = HolonUITests;
+			sourceTree = "<group>";
+		};
+		BA68A06825892179004809D5 /* lemon_milk */ = {
+			isa = PBXGroup;
+			children = (
+				BA68A06925892179004809D5 /* LEMONMILK-LightItalic.otf */,
+				BA68A06A25892179004809D5 /* LEMONMILK-Medium.otf */,
+				BA68A06B25892179004809D5 /* LEMONMILK-MediumItalic.otf */,
+				BA68A06C25892179004809D5 /* LEMONMILK-BoldItalic.otf */,
+				BA68A06D25892179004809D5 /* LEMONMILK-RegularItalic.otf */,
+				BA68A06F25892179004809D5 /* LEMONMILK-Regular.otf */,
+				BA68A07025892179004809D5 /* Lemon Milk Demo 2.png */,
+				BA68A07125892179004809D5 /* Lemon Milk Demo 1.png */,
+				BA68A07225892179004809D5 /* LEMONMILK-Bold.otf */,
+				BA68A07325892179004809D5 /* READ_ME.txt */,
+				BA68A07425892179004809D5 /* LEMONMILK-Light.otf */,
+			);
+			path = lemon_milk;
+			sourceTree = "<group>";
+		};
+		BA68A0CC25893C24004809D5 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				BA68A0CD25893C3D004809D5 /* LoadingViewController.swift */,
+				BA68A0DD25894F23004809D5 /* SettingsViewController.swift */,
+				BA68A0EF2589CCC0004809D5 /* OnboardingViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		BA68A0D22589497E004809D5 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				BA68A0D325894994004809D5 /* Helper.swift */,
+				BA68A0D825894CD2004809D5 /* Constants.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		BA68A0E625895381004809D5 /* manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +314,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA68A07C25892179004809D5 /* Lemon Milk Demo 2.png in Resources */,
 				BA68A0422589213E004809D5 /* LaunchScreen.storyboard in Resources */,
 				BA68A03F2589213E004809D5 /* Assets.xcassets in Resources */,
 				BA68A03A2589213B004809D5 /* Main.storyboard in Resources */,
+				BA68A07525892179004809D5 /* LEMONMILK-LightItalic.otf in Resources */,
+				BA68A07F25892179004809D5 /* READ_ME.txt in Resources */,
+				BA68A07625892179004809D5 /* LEMONMILK-Medium.otf in Resources */,
+				BA68A07825892179004809D5 /* LEMONMILK-BoldItalic.otf in Resources */,
+				BA68A08025892179004809D5 /* LEMONMILK-Light.otf in Resources */,
+				BA68A07B25892179004809D5 /* LEMONMILK-Regular.otf in Resources */,
+				BA68A07725892179004809D5 /* LEMONMILK-MediumItalic.otf in Resources */,
+				BA68A07D25892179004809D5 /* Lemon Milk Demo 1.png in Resources */,
+				BA68A07925892179004809D5 /* LEMONMILK-RegularItalic.otf in Resources */,
+				BA68A07E25892179004809D5 /* LEMONMILK-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +352,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA68A0372589213B004809D5 /* ViewController.swift in Sources */,
 				BA68A0332589213B004809D5 /* AppDelegate.swift in Sources */,
 				BA68A03D2589213B004809D5 /* Holon.xcdatamodeld in Sources */,
+				BA68A0DE25894F23004809D5 /* SettingsViewController.swift in Sources */,
+				BA68A0E825895B6B004809D5 /* PresentationManager.swift in Sources */,
+				BA68A0D425894994004809D5 /* Helper.swift in Sources */,
 				BA68A0352589213B004809D5 /* SceneDelegate.swift in Sources */,
+				BA68A0CE25893C3D004809D5 /* LoadingViewController.swift in Sources */,
+				BA68A0F02589CCC0004809D5 /* OnboardingViewController.swift in Sources */,
+				BA68A0D925894CD2004809D5 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

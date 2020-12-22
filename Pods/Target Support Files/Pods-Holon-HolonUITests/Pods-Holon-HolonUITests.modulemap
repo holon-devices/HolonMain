@@ -1,0 +1,6 @@
+framework module Pods_Holon_HolonUITests {
+  umbrella header "Pods-Holon-HolonUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
